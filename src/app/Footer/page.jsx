@@ -1,3 +1,4 @@
+"use client";
 import React from 'react'
 import { FaInstagram } from "react-icons/fa6";
 import { IoLogoLinkedin, IoMailOutline } from "react-icons/io5";

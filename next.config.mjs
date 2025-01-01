@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-      domains: ['andishehpardaz.ir',"cdn.alopeyk.com","www.andishehpardaz.ir"], 
+      domains: ['andishehpardaz.ir',"www.andishehpardaz.ir"], 
     },
   };
   

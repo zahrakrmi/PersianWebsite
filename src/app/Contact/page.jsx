@@ -1,4 +1,4 @@
-
+"use client";
 import React from 'react'
 import { FaFax } from 'react-icons/fa';
 import { FaEnvelopeOpenText } from 'react-icons/fa';
