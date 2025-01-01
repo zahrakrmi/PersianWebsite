@@ -20,16 +20,16 @@ export default function ColumnsGrid2() {
     return (
         <Box sx={{ flexGrow: 1 }}>
             <Grid container spacing={2} columns={16} className='flex justify-evenly '>
-                <Grid item xs={5} className='rounded-lg p-5 '>
+                <Grid item xs={5} className='rounded-lg p-5  '>
                     <Item>
-                        <Image
+                        <Image className='hover:scale-105'
                             src='https://www.andishehpardaz.ir/wp-content/uploads/2023/09/g11.png'
                             width={400}
                             height={400}
                             alt="img1"
                         />
                         <h2 className='font-bold p-3 text-2xl'>سامانه مدیریت داخلی</h2>
-                        <p className='text-lg p-2'>مدیریت کمیسیون معاملات (خرید و تدارکات)</p>
+                        <p className='text-lg p-2 '>مدیریت کمیسیون معاملات (خرید و تدارکات)</p>
                         <p className='text-lg p-2'>مدیریت تامین کنندگان</p>
                         <p className='text-lg p-2'> مدیریت قراردادها </p>
                         <p className='text-lg p-2'>مدیریت امور حقوقی و املاک </p>
@@ -37,7 +37,7 @@ export default function ColumnsGrid2() {
                 </Grid>
                 <Grid item xs={5}>
                     <Item>
-                        <Image
+                        <Image className='hover:scale-105'
                             src='https://www.andishehpardaz.ir/wp-content/uploads/2023/09/g12.png'
                             width={400}
                             height={400}

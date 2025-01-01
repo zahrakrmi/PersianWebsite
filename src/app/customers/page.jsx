@@ -19,7 +19,7 @@ export default function SimplePaper() {
       sx={{
         display: 'flex',
         flexWrap: 'wrap',
-        justifyContent: 'center', // تنظیم تراز وسط
+        justifyContent: 'center', 
         '& > :not(style)': {
           m: 1,
           width: 128,
@@ -30,7 +30,7 @@ export default function SimplePaper() {
       {images.map((src, index) => (
         <Paper key={index} elevation={3} sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
           <img
-            src={src} // استفاده از آدرس تصویر
+            src={src} 
             alt={`Image ${index + 1}`}
             style={{ width: '100%', height: '100%', objectFit: 'cover' }} // استایل برای تنظیم سایز تصویر
           />

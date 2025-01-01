@@ -22,7 +22,7 @@ export default function Header() {
   };
 
   return (
-    <nav className="md:fixed md:p-5 items-center flex justify-evenly md:justify-start h-full md:h-[100px]  w-full z-10">
+    <nav className="md:fixed md:p-5 items-center flex justify-evenly md:justify-start h-full md:h-[100px]  w-full z-10 bg-gray-700 ">
       <figure className="w-5/12 md:w-3/12 flex justify-center">
         <Link href="/">
           <Image

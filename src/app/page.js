@@ -1,10 +1,10 @@
 'use client';
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import ResponsiveGrid from "./grid/page";
 import ColumnsGrid from "./grid/page";
 import SimplePaper from "./customers/page";
 import ColumnsGrid2 from "./grid2/page";
+
 
 const slides = [
   {
@@ -38,7 +38,7 @@ export default function Page() {
 
   return (
     <>
-      <section className="relative w-full h-full">
+      <section className="relative w-full h-full ">
         <div className="flex flex-wrap">
           {/* مربوط به پس‌زمینه اسلاید  */}
           <div
@@ -147,9 +147,7 @@ export default function Page() {
         فرآیندهای معاملاتی در سامانه مدیریت داخلی از زمان ثبت درخواست از واحد متقاضی، شروع و پس از طی تشریفات مربوطه (برگزاری مناقصه، استعلام، مزایده یا حراج) با کمک پورتال تامین کنندگان ادامه می یابد. پس از آن فرآیندهای رسیدگی به قرارداد نیز انجام گرفته و در انتها با به پایان رسیدن قرارداد، پروسه در سامانه خاتمه خواهد یافت.
         </p>
         
-        <article className="w-full flex flex-wrap *:w-full *:md:w-5/12 justify-evenly *:shadow-2xl *:my-5 *:rounded-xl">
         <ColumnsGrid2/>
-        </article>
       </section>
     </>
   );
