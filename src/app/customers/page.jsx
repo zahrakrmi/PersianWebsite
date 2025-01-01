@@ -32,7 +32,7 @@ export default function SimplePaper() {
           <img
             src={src} 
             alt={`Image ${index + 1}`}
-            style={{ width: '100%', height: '100%', objectFit: 'cover' }} // استایل برای تنظیم سایز تصویر
+            style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
           />
         </Paper>
       ))}

@@ -45,14 +45,14 @@ export default function Header() {
       <ul
         className={`h-full *:my-5 *:mx-5 md:flex text-white text-lg transition-all duration-300 ${
           isMenuOpen
-            ? "flex flex-col items-center absolute bg-white w-full top-[70px] left-0 z-10 p-5"
+            ? "flex flex-col items-center absolute bg-gray-600 w-full top-[70px] left-0 z-10 p-5"
             : "hidden md:flex"
         }`}
       >
         {[
-          { href: "/business", label: "خانه" },
-          { href: "/Couriers", label: "درباره ما" },
-          { href: "/Contact-us", label:"ویژگی ها" },
+          { href: "/", label: "خانه" },
+          { href: "/option", label: "ویژگی ها" },
+          { href: "/product", label:"محصولات " },
           { href: "/Contact", label:"تماس با ما" },
         ].map((link) => (
           <li key={link.href} className="mb-4 md:mb-0 md:mr-5">
@@ -61,7 +61,7 @@ export default function Header() {
               onClick={() => handleLinkClick(link.href)}
               className={`pb-2 ${
                 activeLink === link.href
-                  ? "border-b-2 border-blue-500"
+                  ? "border-b-2 border-[#56adac]"
                   : "border-b-2 border-transparent"
               } transition-all duration-300`}
             >
